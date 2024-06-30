@@ -1,0 +1,141 @@
+
+/* Style + body, main */
+:root {
+    --primary-band: #4D5AE5;
+    --pressed-state: #404BBF;
+    --dark: #2E2F42;
+    --success: #31d0aa;
+    --text: #434455;
+    --subtle-text: #8e8f99;
+    --accent: #e7e9fc;
+    --light: #f4f4fd;
+    --modal-overlay: #2e2f42;
+    --hero-background: #2e2f42;
+    --white-background: #ffffff; 
+    --modal-background: #fcfcfc;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--text);
+    background-color: var(--white-background);
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+}
+
+/* Common Tags */
+a{
+    text-decoration: none;
+}
+
+
+
+ul, ol {
+    list-style: none;
+
+}
+
+.hidden {
+    display:none;
+}
+.web {
+    color: var(--primary-band);
+}
+
+
+/* Header */
+.header-logo {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 3%;
+}
+
+
+.nav-item {
+    font-weight: medium;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2%;
+    color: var(--dark);
+}
+
+/* Hero section */
+
+.hero {
+    background-color: var(--dark);
+}
+
+
+.hero-title {
+    font-weight: bold;
+    font-size: 56px;
+    letter-spacing: 2%;
+    line-height: 1.07;
+    color: var(--white-background);
+}
+
+.hero-button {
+    font-weight: medium;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 4%;
+    background-color: var(--primary-band);
+    color: var(--white-background);
+}
+/* h2, h3  */
+.team-title, .portfolio-title, .quality-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 2%;
+}
+
+.team-name, .portfolio-name{
+    font-family: 'Roboto', sans-serif;
+    font-weight: medium;
+    font-size: 20px;
+    letter-spacing: 2%;
+}
+
+/* Team section */
+.team-section {
+    background-color: var(--light);
+}
+
+.team-item {
+    background-color: var(--white-background);
+}
+
+
+/* Footer  */
+.footer-section {
+    background-color: var(--dark);
+}
+
+.footer-logo{
+    color: var(--light);
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 3%;
+}
+
+.footer-text {
+    color: var(--light);
+}
+
+
+
+
+/* Interactive elements */
+.nav-link:hover,
+.nav-link:focus,
+.contacts-item:hover,
+.contacts-item:focus {
+    color: var(--pressed-state);
+}
+
+.hero-button:hover, 
+.hero-button:focus {
+    background-color: var(--pressed-state);
+}
