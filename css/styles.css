@@ -229,7 +229,6 @@ ul, ol {
     background-color: var(--white-background);
     width:calc(100%-264)/4;
     margin-top: 72px;
-    margin-bottom: 128px;
     text-align: center;
     border-radius: 0 0 4px 4px;
     border-bottom: 0.5px solid var(--accent);
