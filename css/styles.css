@@ -49,7 +49,10 @@ ul, ol {
     margin: 0 auto;
   }
 
-
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
 
 /* Header */
@@ -193,7 +196,7 @@ ul, ol {
 }
 
 .quality-title{
-    padding-top: 120px;
+  
     
     margin-bottom: 8px;
 }
@@ -201,7 +204,7 @@ ul, ol {
 
 .quality-text{
     padding-top: 8px;
-    padding-bottom: 120px; ;
+  
     max-width: 264px;
 }
 
@@ -218,7 +221,6 @@ ul, ol {
 }
 
 .team-title {
-    padding-top: 120px;
     margin: 0px;
     text-align: center;
 }
@@ -251,8 +253,7 @@ ul, ol {
 }
 /* Our portfolio  */
 .portfolio-container {
-  padding-top: 120px;
-  padding-bottom: 120px;
+
 }
 
 .portfolio-title {
@@ -275,8 +276,6 @@ ul, ol {
   max-width: 360px;
   box-sizing: border-box;
   border-bottom: 1px solid var(--accent); 
-  border-left: 1px solid var(--accent); 
-  border-right: 1px solid var(--accent); 
 }
 
 .portfolio-item img {
