@@ -206,7 +206,7 @@ ul, ol {
 }
 
 .quality-item {
-  width:calc(100%-72)/4; 
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .quality-title{
