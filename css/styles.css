@@ -28,7 +28,9 @@ body {
 a{
     text-decoration: none;
 }
-
+img {
+  display: block
+}
 
 
 ul, ol {
@@ -36,8 +38,19 @@ ul, ol {
 
 }
 
-.hidden {
-    display:none;
+.visually-hidden {
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 }
 .web {
     color: var(--primary-band);
@@ -134,6 +147,7 @@ ul, ol {
 
 .hero {
     background-color: var(--dark);
+    padding: 188px 0
 }
 
 
@@ -159,6 +173,8 @@ ul, ol {
     border-radius: 4px;
     border: none;
     padding: 16px 32px;
+    min-width: 169px;
+    cursor: pointer;
 }
 
 .hero-container {
