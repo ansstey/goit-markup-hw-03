@@ -321,6 +321,7 @@ ul, ol {
 /* Footer  */
 .footer-section {
     background-color: var(--dark);
+    padding: 100px 0;
 }
 
 .footer-logo {
@@ -331,6 +332,8 @@ ul, ol {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--light);
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 
@@ -353,7 +356,6 @@ ul, ol {
 }
 
 .footer-text {
-  padding-top: 16px;
   margin: 0px;
   max-width: 264px;
 }
