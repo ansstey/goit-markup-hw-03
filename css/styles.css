@@ -39,7 +39,6 @@ ul, ol {
 }
 
 .visually-hidden {
-  .visually-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -50,7 +49,6 @@ ul, ol {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
-  }
 }
 .web {
     color: var(--primary-band);
@@ -207,20 +205,16 @@ ul, ol {
     gap: 24px;
 }
 
-.quality-item{
+.quality-item:first-of-type{
     width:calc(100%-72)/4;
 }
 
 .quality-title{
-  
-    
-    margin-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 
 .quality-text{
-    padding-top: 8px;
-  
     max-width: 264px;
 }
 
