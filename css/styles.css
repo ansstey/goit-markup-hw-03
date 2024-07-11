@@ -206,7 +206,7 @@ ul, ol {
 }
 
 .quality-item{
-  width:calc(100%-72)/4;
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .quality-title{
@@ -277,7 +277,6 @@ ul, ol {
 }
 
 .portfolio-item {
-  
   width:calc(100%-48)/3; 
 }
 
