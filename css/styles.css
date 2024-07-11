@@ -205,8 +205,8 @@ ul, ol {
     gap: 24px;
 }
 
-.quality-item{
-  flex-basis: calc((100% - 72px) / 4);
+.quality-item {
+  width:calc(100%-72)/4; 
 }
 
 .quality-title{
