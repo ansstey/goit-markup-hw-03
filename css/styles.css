@@ -284,8 +284,7 @@ ul, ol {
 }
 
 .portfolio-item:first-child {
-  display: flex; 
-  flex-direction: column; 
+  
   width: calc((100% - 48px) / 3); 
   
 }
